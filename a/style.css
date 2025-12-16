@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(57, 48, 75);
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(238, 198, 134);
+  line-height: 1.5;
+}
+
+.header {
+    color: rgb(238, 198, 134);
+    border-radius: 35px;
+  box-shadow: 04px 04px 25px #e96831d2;
+  text-align: center;
+  padding: 15px;
+}
+
+.header h1 {
+    color: rgb(238, 198, 134);
+  font-size: 1.5rem;
+}
+
+.header h2 {
+    color: rgb(238, 198, 134);
+  font-size: 1.2rem;
+}
+
+.contenedor {
+    color: v;
+  padding: 15px;
+}
+
+.texto h3 {
+    color: rgb(238, 198, 134);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.parrafo {
+    color: rgb(238, 198, 134);
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.lista {
+    color: (238, 198, 134);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+            body {
+                background-color: #521f2f; 
+            }
+
+            h1::before {
+                content: "Celfon ";
+            }
+        }
