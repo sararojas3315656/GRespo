@@ -57,6 +57,25 @@ body {
   margin-bottom: 10px;
  }
 
+  .menu ul { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  }
+
+.menu li {
+  margin: 10px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(238, 198, 134);
+  font-size: 1rem;
+}
+
 
  /* Desktop first */
  
@@ -101,4 +120,30 @@ body {
   font-size: 1.1rem;
   color: (238, 198, 134);
   margin-bottom: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* menú vertical */
+  text-align: center;
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(238, 198, 134);
+  font-size: 1rem;
+}
+
+@media (min-width: 1024px) {
+
+  .menu a {
+    font-size: 1.4rem;
+  }
 }
