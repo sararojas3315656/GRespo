@@ -1,4 +1,8 @@
-* {
+
+/*
+   MOBILE FIRST
+ */
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,16 +14,17 @@ body {
   color: rgb(238, 198, 134);
   line-height: 1.5;
 }
+/* mobile first */
 
-.header {
+/* .header {
     color: rgb(238, 198, 134);
     border-radius: 35px;
   box-shadow: 04px 04px 25px #e96831d2;
   text-align: center;
   padding: 15px;
 }
-
-.header h1 {
+/* en un video ví que es mejor usar la medida rem, funciona masomenos así 1rem = 16px 2rem = 32px 0.5rem = 8px */
+/* .header h1 {
     color: rgb(238, 198, 134);
   font-size: 1.5rem;
 }
@@ -50,14 +55,50 @@ body {
     color: (238, 198, 134);
   margin-left: 20px;
   margin-bottom: 10px;
+ }
+
+
+ /* Desktop first */
+ 
+.header {
+ color: rgb(238, 198, 134);
+  border-radius: 35px;
+  box-shadow: 04px 04px 25px #e96831d2;
+  text-align: center;
+  padding: 15px;
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
-            body {
-                background-color: #521f2f; 
-            }
+.header h1 {
+  font-size: 2.5rem;
+  color: rgb(238, 198, 134);
+}
 
-            h1::before {
-                content: "Celfon ";
-            }
-        }
+.header h2 {
+  font-size: 2rem;
+  color: rgb(238, 198, 134);
+}
+
+.contenedor {
+    color: rgb(238, 198, 134);
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+}
+
+.texto h3 {
+    color: rgb(238, 198, 134);
+  font-size: 1.8rem;
+}
+
+.parrafo {
+    color: rgb(238, 198, 134);
+  font-size: 1.1rem;
+}
+
+.lista {
+    color: rgb(238, 198, 134);
+  margin-left: 30px;
+  font-size: 1.1rem;
+  color: (238, 198, 134);
+  margin-bottom: 10px;
+}
